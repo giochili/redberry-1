@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url(../font/HelveticaNeue.ttc);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "HelveticaNeue";
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/images/shutterstock_2189773743\ 1.png);
+  background-repeat: no-repeat;
+  display: flex;
+}
+.main-container {
+  background-image: url(/images/LOGO-40\ 1.png);
+  background-repeat: no-repeat;
+  background-position: top 473px left 1076px;
+  width: 100%;
+  height: 100%;
+  padding: 25px 70px 0 70px;
+}
+.LOGO-RB {
+  margin-bottom: 26px;
+}
+.line {
+  border: 1px solid #1a1a1a;
+  opacity: 0.4;
+  margin-bottom: 424px;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.add-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+  padding: 18px 126px;
+  background: #1a1a1a;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
