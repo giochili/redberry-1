@@ -11,12 +11,12 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-image: url(/images/shutterstock_2189773743\ 1.png);
+  background-image: url("/images/shutterstock_2189773743\ 1.png");
   background-repeat: no-repeat;
   display: flex;
 }
 .main-container {
-  background-image: url(/images/LOGO-40\ 1.png);
+  background-image: url("/images/LOGO-40\ 1.png");
   background-repeat: no-repeat;
   background-position: top 473px left 1076px;
   width: 100%;
