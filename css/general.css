@@ -1,0 +1,267 @@
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url(../font/HelveticaNeue.ttc);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "HelveticaNeue";
+  overflow-x: hidden;
+}
+body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.input-container {
+  width: 1098px;
+  background-color: #f9f9f9;
+  padding: 47px 150px 65px 150px;
+  overflow: hidden;
+}
+.header {
+  margin-bottom: 69px;
+}
+.inner-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.info-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1a1a1a;
+}
+.page-count {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1a1a1a;
+}
+.line {
+  border: 1px solid #1a1a1a;
+  opacity: 0.5;
+}
+/* name field */
+
+.name-field {
+  margin-bottom: 46px;
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  justify-content: space-between;
+}
+.input {
+  background: #ffffff;
+  border: 1px solid #bcbcbc;
+  border-radius: 4px;
+  width: 371px;
+  height: 48px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  padding: 13px 16px 14px 16px;
+  border-color: #bcbcbc;
+  margin-bottom: 8px;
+}
+.input::placeholder {
+  color: rgba(0, 0, 0, 0.6);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}
+.title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 8px;
+  color: #000000;
+}
+.validation {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #2e2e2e;
+}
+/* photo contaier */
+.photo-div {
+  display: flex;
+  margin-bottom: 41px;
+}
+.photo-header {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #1a1a1a;
+  margin-right: 19px;
+}
+.upload-photo-btn {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  background: #0e80bf;
+  border-radius: 4px;
+  padding: 4px 19px 6px 19px;
+  border: none;
+}
+/* about container */
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0;
+  margin-bottom: 25px;
+}
+.about-header {
+  margin-bottom: 8px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  align-items: center;
+  color: #000000;
+}
+.about-input {
+  background: #ffffff;
+  border: 1px solid #bcbcbc;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  width: 798px;
+  padding: 13px 83px 66px 6px;
+  position: relative;
+}
+.about-input::placeholder {
+  position: absolute;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* email container */
+
+.email-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 21px;
+}
+.email-header {
+  color: #000000;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 8px;
+}
+.email-input {
+  background: #ffffff;
+  border: 1px solid #bcbcbc;
+  border-radius: 4px;
+  padding: 13px 16px 14px 16px;
+  margin-bottom: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}
+.email-input::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.email-paragraph {
+  color: #2e2e2e;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 8px;
+}
+
+/* phone number container */
+
+.phone-number-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 160px;
+}
+.phone-header {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+.phone-input {
+  background: #ffffff;
+  border: 1px solid #bcbcbc;
+  border-radius: 4px;
+  padding: 13px 16px 14px 16px;
+  margin-bottom: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+.phone-input::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.phone-paragraph {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #2e2e2e;
+}
+
+/* button  */
+
+.button-container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.next-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  color: #ffffff;
+  padding: 14px 35px;
+  border: none;
+  background: #6b40e3;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.vector {
+  position: absolute;
+}
